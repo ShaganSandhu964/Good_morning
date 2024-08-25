@@ -1,0 +1,15 @@
+#Good Morning small project
+import time
+timestamp=time.strftime('%H:%M:%S')
+hour=int(time.strftime('%H'))
+print(timestamp)
+print(hour)
+a=int(input("Enter the value of a :"))
+if(a>=4 and a<12):
+  print('Good Morning')
+elif(a>=12 and a<16):
+  print("Good afternoon")
+elif(a>=16 and a<20):
+  print("Good Evening")
+else:
+ print("Good Night")
